@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>S3863956_IIT_A1</title>
+  <link rel="stylesheet" href="Style.css">
 </head>
 <body bgcolor ="black", text="white">
   <hr color="white" size=3 >
@@ -18,7 +19,26 @@
     <p align="left" style="font-family:'Comic Sans MS'; font-size:25px; padding-bottom:80px">  Vietnamese &nbsp&nbsp Vietnamese, English</p>
     <b  style="font-family:'Comic Sans MS' ; font-size:14px; color:#F5B041"> Date Of Birth &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Blood Type </b>
     <p align="left" style="font-family:'Comic Sans MS'; font-size:25px">  18.08.01 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Amazing plus</p>
-    
   </section>
+  <panel>
+    <ul>
+      <button class="but Biography" id="Biography" onclick="BioClick()" >INTEREST</button>
+      <button class="but Hobby " id ="Hobby" onclick="HobClick()">HOBBY</button>
+      <div class ="profile descriptionBio" id="123">Choose what you wanna explore from me first! my hobby or interest :3</div>
+    </ul>
+  </panel>
+<script>
+function BioClick(){
+          document.getElementById('Biography').disabled=true;
+          document.getElementById('Hobby').disabled=false;
+          document.getElementById('123').innerHTML="writing Bio";
+}
+function HobClick()
+{
+  document.getElementById('Biography').disabled=false;
+  document.getElementById('Hobby').disabled=true;
+  document.getElementById('123').innerHTML="Writing Hobby";
+        }
+  </script>
 </body>
 </html>

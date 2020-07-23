@@ -55,3 +55,9 @@ font-size: 16px;
 font-family:'Comic Sans MS';
 align: left;
 }
+.SpaceTransition{
+  width:1000px;
+  height:300px;
+  margin-top:140px;
+  margin-left: 15%;
+}

@@ -1,11 +1,11 @@
 .but{
 position: absolute;
-top:75%;
+top:550px;
 border: 1px solid #373737;
 border-bottom: none;
 background-color: rgba(55,55,55,.7);
 width: 21%;
-height: 10%;
+height: 70px;
 font-size: 20px;
 font-family: 'Comic Sans MS';
 color:#F5B041;
@@ -43,7 +43,7 @@ padding: 10px 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
 position: absolute;
-top: 85%;
+top: 620px;
 left:52%;
 background-color: rgba(0,0,0,.6);
 border: 1px solid #373737;
